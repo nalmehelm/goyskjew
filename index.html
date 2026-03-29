@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    background: #111;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  h1 { font-size: 40px; margin-bottom: 5px; }
+  .container {
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    background: #222;
+    padding: 25px;
+  }
+  .section-title {
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  ul { list-style: none; padding: 0; margin: 10px 0; font-size: 15px; }
+  li { margin-bottom: 5px; }
+  .discord { color: #7289da; text-decoration: none; font-weight: bold; }
+  .discord:hover { color: #3c5ac6; }
+  .green { color: #26ff00; }
+
+  .price-box {
+    background: #111;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #26ff00;
+  }
+  .price-label { font-size: 14px; color: #888; margin-bottom: 10px; }
+
+  .btn {
+    width: 100%;
+    background: #26ff00;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+  .btn:hover { background: #1dd600; }
+  .btn:active { background: #18b300; }
+
+  .note { font-size: 13px; color: #666; margin-top: 10px; }
+  .note a { color: #7289da; text-decoration: none; }
+  .note a:hover { color: #fff; }
+
+
+</style>
+</head>
+<body>
+
+<h1>Gorsk / <span class="green">Зе!</span>-Місто</h1>
+
+<div class="container">
+  <span class="section-title">Купити Вайтліст</span>
+  <ul>
+    <li>— Доступ до додаткових слотів</li>
+    <li>— Одноразова оплата</li>
+  </ul>
+
+  <div class="price-box">
+    <div class="price-label">Ціна</div>
+    <div class="price">20 ₴</div>
+  </div>
+
+  <span class="section-title">Як оплатити</span>
+  <ul>
+    <li>1. Дізнайся свій Steam ID на <a class="discord" href="https://steamid.io/" target="_blank">steamid.io</a></li>
+    <li>2. Перейди на Монобанку та відправ <b style="color:#26ff00">20 ₴</b></li>
+    <li>3. У коментарі до платежу вкажи свій <b style="color:#26ff00">Steam ID</b></li>
+  </ul>
+
+  <button class="btn" style="margin-top:20px" onclick="window.open('https://send.monobank.ua/jar/25zMpF8B8t', '_blank')">Перейти до оплати →</button>
+
+  <p class="note" style="margin-top:14px">
+    Наш <a href="https://discord.gg/JXjnHG5WP8">Discord</a>
+  </p>
+</div>
+
+
+
+</body>
+</html>
